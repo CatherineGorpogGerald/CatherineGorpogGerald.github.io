@@ -1,0 +1,48 @@
+/*
+	Theme Name: Halena child
+	Theme URI: http://demo.agnidesigns.com/halena/demos
+	Author: AgniDesigns
+	Version: 1.0.79
+	Description: Minimal & Modern eCommerce WordPress Theme.
+	Author URI: http://themeforest.net/user/AgniHD
+	Template: halena
+*/
+
+.woocommerce .product-title{min-height:45px}
+.product-content .price{opacity:1 !important;visibility:visible !important}
+.product-thumbnail .product-add-to-cart-btn{display:none !important}
+.product-content .product-add-to-cart-btn{opacity:1 !important;visibility:visible !important;position:relative !important;top:auto !important;bottom:auto !important;left:auto !important;right:auto !important;margin:5px 0;display:block !important}
+
+.mc4wp-form input:not([type="submit"]){padding:6px 20px}
+.mc4wp-form input[type="submit"]{padding:8px 30px}
+
+.mc4wp-form-basic .mc4wp-success, .mc4wp-form-theme .mc4wp-success, .mc4wp-form-basic .mc4wp-notice, .mc4wp-form-theme .mc4wp-notice{margin-top:20px;font-size:14px !important;color:#fff !important}
+
+.summary .cart{margin-top:10px}
+
+#billing_company_field, #billing_nip_field{display:none}
+
+.xoo-wsc-footer{padding-bottom:80px}
+
+.agni-single-products-gallery-slider-nav-container{display:none}
+
+.woocommerce-tabs .wc-tabs{display:none}
+#tab-reviews{display:block !important}
+
+#FIXED-comments{z-index:99999;position:fixed;top:10%;right:-300px;-moz-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out}
+ #FIXED-comments:hover{right:-1px}
+ #FIXED-comments > div{cursor:pointer;position:absolute;top:100px;left:-80px;width:120px;font:bold 20px/40px arial;color:#fff;text-align:center;background:#000;border:1px solid #fff;-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg)}
+ #FIXED-comments > ul{overflow-y:scroll;list-style:none;width:300px;height:600px;margin:0;padding:10px 20px 30px 20px;background:#fefefe;border:1px solid #000}
+  #FIXED-comments h3{margin-bottom:5px;font-size:16px}
+  #FIXED-comments time{color:#999;font-size:13px;font-weight:normal}
+  #FIXED-comments p{margin-bottom:10px;font-size:14px;line-height:18px}
+
+@media only screen and (max-width:1024px){
+ #FIXED-comments > div{left:-52px;width:80px;font:bold 12px/24px arial}
+}
+
+.woocommerce-product-details__short-description{margin:0 !important}
+#comments{margin:0 !important;padding:0 !important}
+
+#coupon_code{width:100%;max-width:400px;min-width:inherit;padding:13px 120px 13px 20px}
+.coupon .button, .checkout_coupon .button{font-size:16px !important;line-height:32px !important;font-weight:bold;text-transform:uppercase}
